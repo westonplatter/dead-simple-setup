@@ -79,6 +79,7 @@ PACKAGES=(
     # ssh-copy-id
     # terminal-notifier
     # the_silver_searcher
+    selenium-server-standalone
     tmux
     # tree
     # vim
