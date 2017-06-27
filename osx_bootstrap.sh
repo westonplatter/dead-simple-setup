@@ -49,132 +49,132 @@ brew update
 # Install Bash 4
 # brew install bash
 
-PACKAGES=(
-    ack
-    autoconf
-    automake
-    boot2docker
-    # ffmpeg
-    # gettext
-    # gifsicle
-    git
-    # graphviz
-    # hub
-    imagemagick
-    # jq
-    libjpeg
-    # libmemcached
-    # lynx
-    markdown
-    # memcached
-    # mercurial
-    # npm
-    # pkg-config
-    # postgresql
-    # python
-    # python3
-    # pypy
-    # rabbitmq
-    # rename
-    # ssh-copy-id
-    # terminal-notifier
-    # the_silver_searcher
-    selenium-server-standalone
-    tmux
-    # tree
-    # vim
-    wget
-)
-
-echo "Installing packages..."
-brew install ${PACKAGES[@]}
-
-echo "Cleaning up..."
-brew cleanup
-
-echo "Installing cask..."
-brew tap caskroom/cask
-
-CASKS=(
-#     colluquy
-#     dropbox
-#     firefox
-#     flux
-#     google-chrome
-#     google-drive
-#     gpgtools
-#     iterm2
-    java
-    macvim
-    # skype
-    slack
-#     spectacle
-#     vagrant
-#     virtualbox
-#     vlc
-)
-
-echo "Installing cask apps..."
-brew cask install ${CASKS[@]}
-
-
-echo "Installing thoughtbot apps..."
-brew tap thoughtbot/formulae
-APPS=(
-  rcm
-)
-brew install ${APPS[@]}
-
-
-echo "Installing fonts..."
-brew tap caskroom/fonts
-FONTS=(
-    # font-inconsolidata
-    # font-roboto
-    # font-clear-sans
-)
-# brew cask install ${FONTS[@]}
-
-# echo "Installing Python packages..."
-# PYTHON_PACKAGES=(
-#     ipython
-#     virtualenv
-#     virtualenvwrapper
+# PACKAGES=(
+#     ack
+#     autoconf
+#     automake
+#     boot2docker
+#     # ffmpeg
+#     # gettext
+#     # gifsicle
+#     git
+#     # graphviz
+#     # hub
+#     imagemagick
+#     # jq
+#     libjpeg
+#     # libmemcached
+#     # lynx
+#     markdown
+#     # memcached
+#     # mercurial
+#     # npm
+#     # pkg-config
+#     # postgresql
+#     # python
+#     # python3
+#     # pypy
+#     # rabbitmq
+#     # rename
+#     # ssh-copy-id
+#     # terminal-notifier
+#     # the_silver_searcher
+#     selenium-server-standalone
+#     tmux
+#     # tree
+#     # vim
+#     wget
 # )
-# sudo pip install ${PYTHON_PACKAGES[@]}
 #
-# echo "Installing Ruby gems"
-# RUBY_GEMS=(
-#     bundler
-#     filewatcher
-#     cocoapods
-# )
-# sudo gem install ${RUBY_GEMS[@]}
-#
-# echo "Installing global npm packages..."
-# npm install marked -g
-#
-# echo "Configuring OSX..."
-#
-# # Set fast key repeat rate
-# defaults write NSGlobalDomain KeyRepeat -int 0
-#
-# # Require password as soon as screensaver or sleep mode starts
-# defaults write com.apple.screensaver askForPassword -int 1
-# defaults write com.apple.screensaver askForPasswordDelay -int 0
-#
-# # Show filename extensions by default
-# defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-#
-# # Enable tap-to-click
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-# defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-#
-# # Disable "natural" scroll
-# defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
-#
-# echo "Creating folder structure..."
-# [[ ! -d Wiki ]] && mkdir Wiki
-# [[ ! -d Workspace ]] && mkdir Workspace
+# echo "Installing packages..."
+# brew install ${PACKAGES[@]}
 
+# echo "Cleaning up..."
+# brew cleanup
+
+echo "Installing Homebrew/bundle ..."
+brew tap Homebrew/bundle
+
+# CASKS=(
+# #     colluquy
+# #     dropbox
+# #     firefox
+# #     flux
+# #     google-chrome
+# #     google-drive
+# #     gpgtools
+# #     iterm2
+#     java
+#     macvim
+#     # skype
+#     slack
+# #     spectacle
+# #     vagrant
+# #     virtualbox
+# #     vlc
+# )
+#
+# echo "Installing cask apps..."
+# brew cask install ${CASKS[@]}
+#
+#
+# echo "Installing thoughtbot apps..."
+# brew tap thoughtbot/formulae
+# APPS=(
+#   rcm
+# )
+# brew install ${APPS[@]}
+#
+#
+# echo "Installing fonts..."
+# brew tap caskroom/fonts
+# FONTS=(
+#     # font-inconsolidata
+#     # font-roboto
+#     # font-clear-sans
+# )
+# # brew cask install ${FONTS[@]}
+#
+# # echo "Installing Python packages..."
+# # PYTHON_PACKAGES=(
+# #     ipython
+# #     virtualenv
+# #     virtualenvwrapper
+# # )
+# # sudo pip install ${PYTHON_PACKAGES[@]}
+# #
+# # echo "Installing Ruby gems"
+# # RUBY_GEMS=(
+# #     bundler
+# #     filewatcher
+# #     cocoapods
+# # )
+# # sudo gem install ${RUBY_GEMS[@]}
+# #
+# # echo "Installing global npm packages..."
+# # npm install marked -g
+# #
+# # echo "Configuring OSX..."
+# #
+# # # Set fast key repeat rate
+# # defaults write NSGlobalDomain KeyRepeat -int 0
+# #
+# # # Require password as soon as screensaver or sleep mode starts
+# # defaults write com.apple.screensaver askForPassword -int 1
+# # defaults write com.apple.screensaver askForPasswordDelay -int 0
+# #
+# # # Show filename extensions by default
+# # defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+# #
+# # # Enable tap-to-click
+# # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+# # defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# #
+# # # Disable "natural" scroll
+# # defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+# #
+# # echo "Creating folder structure..."
+# # [[ ! -d Wiki ]] && mkdir Wiki
+# # [[ ! -d Workspace ]] && mkdir Workspace
+#
 echo "Bootstrapping complete"

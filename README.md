@@ -13,10 +13,13 @@ git clone git@github.com:westonplatter/dead-simple-setup.git
 cd dead-simple-setup
 chmod +x ./osx_bootstrap.sh
 sh ./osx_bootstrap.sh
+brew bundle
 ```
 
 ## Credits
 This [simple github gist](https://gist.github.com/codeinthehole/26b37efa67041e1307db) by David Winterbottom. Thanks!
+
+Justin Johnson's [feedback](https://twitter.com/balduncle/status/874583640285556736).
 
 ## License
 MIT

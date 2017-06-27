@@ -1,0 +1,18 @@
+brew "ack"
+brew "autoconf"
+brew "automake"
+brew "boot2docker"
+brew "git"
+brew "imagemagick"
+brew "libjpeg"
+brew "markdown"
+brew "selenium-server-standalone"
+brew "tmux"
+brew "wget"
+
+cask_args appdir: "/Applications"
+tap "caskroom/cask"
+
+cask "java"
+cask "macvim"
+cask "slack"
