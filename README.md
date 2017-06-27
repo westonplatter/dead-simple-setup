@@ -13,7 +13,6 @@ git clone git@github.com:westonplatter/dead-simple-setup.git
 cd dead-simple-setup
 chmod +x ./osx_bootstrap.sh
 sh ./osx_bootstrap.sh
-brew bundle
 ```
 
 ## Credits

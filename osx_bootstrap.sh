@@ -23,7 +23,7 @@
 # - https://news.ycombinator.com/item?id=8402079
 # - http://notes.jerzygangi.com/the-best-pgp-tutorial-for-mac-os-x-ever/
 
-echo "Starting bootstrapping"
+echo "... starting bootstrapping"
 
 # Check for Homebrew, install if we don't have it
 if test ! $(which brew); then
@@ -48,6 +48,12 @@ brew update
 
 # Install Bash 4
 # brew install bash
+
+echo "... Installing Homebrew/bundle"
+brew tap Homebrew/bundle
+
+echo "... Running brew bundle"
+brew bundle
 
 # PACKAGES=(
 #     ack
@@ -91,9 +97,6 @@ brew update
 
 # echo "Cleaning up..."
 # brew cleanup
-
-echo "Installing Homebrew/bundle ..."
-brew tap Homebrew/bundle
 
 # CASKS=(
 # #     colluquy
@@ -177,4 +180,4 @@ brew tap Homebrew/bundle
 # # [[ ! -d Wiki ]] && mkdir Wiki
 # # [[ ! -d Workspace ]] && mkdir Workspace
 #
-echo "Bootstrapping complete"
+echo "... bootstrapping complete"
