@@ -15,4 +15,6 @@ tap "caskroom/cask"
 
 cask "java"
 cask "macvim"
+brew "sbt"
+brew "scala"
 cask "slack"
