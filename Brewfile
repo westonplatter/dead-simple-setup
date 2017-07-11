@@ -27,6 +27,7 @@ cask "slack"
 # language and build tools
 cask "java"
 brew "rbenv"
+brew "ruby-build"
 brew "sbt"
 brew "scala"
 brew "yarn"
