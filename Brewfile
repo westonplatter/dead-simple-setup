@@ -14,8 +14,12 @@ brew "wget"
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
-cask "java"
+# apps
 cask "macvim"
+cask "slack"
+
+# language
+cask "java"
+brew "rbenv"
 brew "sbt"
 brew "scala"
-cask "slack"
