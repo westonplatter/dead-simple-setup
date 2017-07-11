@@ -9,6 +9,7 @@ brew "libjpeg"
 brew "openssl"
 brew "tmux"
 brew "wget"
+brew "zlib"
 
 # addons
 brew "chromedriver"
@@ -33,10 +34,14 @@ cask "java"
 brew "sbt"
 brew "scala"
 
-# language and build tools - ruby
-brew "rbenv"
-brew "ruby-build"
-
 # language and build tools - node
 brew "node"
 brew "yarn"
+
+# language and build tools - python
+brew "pyenv"
+brew "python"
+
+# language and build tools - ruby
+brew "rbenv"
+brew "ruby-build"

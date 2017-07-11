@@ -40,6 +40,11 @@ brew tap Homebrew/bundle
 echo "... Running brew bundle"
 brew bundle
 
+# configs - python
+export PYENV_ROOT=/usr/local/opt/pyenv
+eval "$(pyenv init -)"
+
+# configs - ruby
 eval "$(rbenv init -)"
 
 echo "... bootstrapping complete"
