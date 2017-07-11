@@ -20,5 +20,7 @@ This [simple github gist](https://gist.github.com/codeinthehole/26b37efa67041e13
 
 Justin Johnson's [feedback](https://twitter.com/balduncle/status/874583640285556736).
 
+thoughtbot's [laptop repo](https://github.com/thoughtbot/laptop)
+
 ## License
 MIT

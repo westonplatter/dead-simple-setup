@@ -11,6 +11,11 @@ brew "selenium-server-standalone"
 brew "tmux"
 brew "wget"
 
+# Databases
+brew "mysql", restart_service: true
+brew "postgres", restart_service: true
+brew "redis", restart_service: true
+
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
@@ -18,8 +23,9 @@ tap "caskroom/cask"
 cask "macvim"
 cask "slack"
 
-# language
+# language and build tools
 cask "java"
 brew "rbenv"
 brew "sbt"
 brew "scala"
+brew "yarn"
