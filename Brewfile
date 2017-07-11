@@ -15,6 +15,7 @@ brew "zlib"
 brew "chromedriver"
 brew "markdown"
 brew "selenium-server-standalone"
+brew "the_silver_searcher"
 
 # databases
 brew "mysql", restart_service: true
