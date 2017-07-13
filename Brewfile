@@ -44,7 +44,6 @@ brew "tomcat", restart_service: true
 tap "pivotal/tap"
 brew "springboot"
 
-
 # language and build tools - node
 brew "node"
 brew "yarn"
