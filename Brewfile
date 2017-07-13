@@ -18,9 +18,9 @@ brew "selenium-server-standalone"
 brew "the_silver_searcher"
 
 # databases
-brew "mysql", restart_service: true
-brew "postgres", restart_service: true
-brew "redis", restart_service: true
+brew "mysql" #, restart_service: true
+brew "postgres" #, restart_service: true
+brew "redis" #, restart_service: true
 
 # configs
 cask_args appdir: "/Applications"
