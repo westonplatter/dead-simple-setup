@@ -31,9 +31,19 @@ cask "macvim"
 cask "slack"
 
 # language and build tools - jvm
+brew "ant"
+cask "eclipse-java"
+brew "gradle"
 cask "java"
+brew "maven"
 brew "sbt"
 brew "scala"
+brew "tomcat", restart_service: true
+
+# language and build tools - jvm -- tap new cask
+tap "pivotal/tap"
+brew "springboot"
+
 
 # language and build tools - node
 brew "node"
