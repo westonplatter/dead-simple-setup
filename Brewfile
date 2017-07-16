@@ -22,11 +22,9 @@ brew "mysql" #, restart_service: true
 brew "postgres" #, restart_service: true
 brew "redis" #, restart_service: true
 
-# configs
+# app
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
-
-# apps
 cask "macvim"
 cask "slack"
 
