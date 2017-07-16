@@ -36,7 +36,6 @@ cask "java"
 brew "maven"
 brew "sbt"
 brew "scala"
-brew "tomcat", restart_service: true
 
 # language and build tools - jvm -- tap new cask
 tap "pivotal/tap"
