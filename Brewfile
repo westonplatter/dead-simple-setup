@@ -22,9 +22,14 @@ brew "mysql" #, restart_service: true
 brew "postgres" #, restart_service: true
 brew "redis" #, restart_service: true
 
+# instal java since it's a dependency
+tap "caskroom/cask"
+cask "java"
+
 # app
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
+cask "brave"
 cask "macvim"
 cask "slack"
 
@@ -33,7 +38,7 @@ brew "ant"
 cask "eclipse-java"
 brew "gradle"
 brew "grails"
-cask "java"
+# cask "java", already installed
 brew "maven"
 brew "sbt"
 brew "scala"
