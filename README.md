@@ -8,6 +8,8 @@ it's too opinionated.
 
 ## Install
 
+Install [homebrew](https://brew.sh/) and git (after installing homebrew, `brew install git`).
+
 ```bash
 git clone git@github.com:westonplatter/dead-simple-setup.git
 cd dead-simple-setup
