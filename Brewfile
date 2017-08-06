@@ -10,11 +10,14 @@ brew "openssl"
 brew "tmux"
 brew "wget"
 brew "zlib"
+brew "zsh"
+brew "zsh-completions"
 
 # addons
 brew "chromedriver"
 brew "markdown"
 brew "selenium-server-standalone"
+cask "spectacle"
 brew "the_silver_searcher"
 
 # databases
@@ -29,6 +32,7 @@ cask "java"
 # app
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
+cask "atom"
 cask "brave"
 cask "macvim"
 cask "slack"
@@ -38,7 +42,6 @@ brew "ant"
 cask "eclipse-java"
 brew "gradle"
 brew "grails"
-# cask "java", already installed
 brew "maven"
 brew "sbt"
 brew "scala"
@@ -58,3 +61,6 @@ brew "python"
 # language and build tools - ruby
 brew "rbenv"
 brew "ruby-build"
+
+# server tools
+brew "ansible"
