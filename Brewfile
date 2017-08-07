@@ -1,3 +1,7 @@
+# coinfigs
+cask_args appdir: "/Applications"
+tap "caskroom/cask"
+
 # core
 brew "ack"
 brew "autoconf"
@@ -13,6 +17,10 @@ brew "zlib"
 brew "zsh"
 brew "zsh-completions"
 
+# dot file management
+tap "thoughtbot/formulae"
+brew "rcm"
+
 # addons
 brew "chromedriver"
 brew "markdown"
@@ -21,19 +29,18 @@ cask "spectacle"
 brew "the_silver_searcher"
 
 # databases
-brew "mysql" #, restart_service: true
-brew "postgres" #, restart_service: true
-brew "redis" #, restart_service: true
+brew "mysql"      #, restart_service: true
+brew "postgres"   #, restart_service: true
+brew "redis"      #, restart_service: true
 
 # instal java since it's a dependency
 tap "caskroom/cask"
 cask "java"
 
 # app
-cask_args appdir: "/Applications"
-tap "caskroom/cask"
 cask "atom"
 cask "brave"
+cask "google-chrome"
 cask "macvim"
 cask "slack"
 
@@ -62,6 +69,12 @@ brew "python"
 # language and build tools - ruby
 brew "rbenv"
 brew "ruby-build"
+
+# language - php
+tap "homebrew/dupes"
+tap "homebrew/versions"
+tap "homebrew/homebrew-php"
+brew "php70"
 
 # server tools
 brew "ansible"
