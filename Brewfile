@@ -78,3 +78,4 @@ brew "php70"
 
 # server tools
 brew "ansible"
+brew "heroku"
