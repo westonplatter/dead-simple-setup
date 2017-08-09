@@ -79,3 +79,9 @@ brew "php70"
 # server tools
 brew "ansible"
 brew "heroku"
+cask "vagrant"
+cask "virtualbox"
+
+# server tools - kubernetes
+brew "kubectl"
+cask "minikube"
