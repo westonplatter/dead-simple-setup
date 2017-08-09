@@ -76,12 +76,14 @@ tap "homebrew/versions"
 tap "homebrew/homebrew-php"
 brew "php70"
 
-# server tools
+# server tools - config tools
 brew "ansible"
 brew "heroku"
-cask "vagrant"
-cask "virtualbox"
 
 # server tools - kubernetes
 brew "kubectl"
 cask "minikube"
+
+# server tools - local host
+cask "vagrant"
+cask "virtualbox"
