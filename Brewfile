@@ -1,4 +1,4 @@
-# coinfigs
+  # coinfigs
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
@@ -17,6 +17,10 @@ brew "zlib"
 brew "zsh"
 brew "zsh-completions"
 
+# install java before it's used elsewhere
+tap "caskroom/cask"
+cask "java"
+
 # dot file management
 tap "thoughtbot/formulae"
 brew "rcm"
@@ -33,11 +37,7 @@ brew "mysql"      #, restart_service: true
 brew "postgres"   #, restart_service: true
 brew "redis"      #, restart_service: true
 
-# instal java since it's a dependency
-tap "caskroom/cask"
-cask "java"
-
-# app
+# apps
 cask "atom"
 cask "brave"
 cask "google-chrome"
