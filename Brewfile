@@ -36,6 +36,7 @@ brew "the_silver_searcher"
 brew "mysql"      #, restart_service: true
 brew "postgres"   #, restart_service: true
 brew "redis"      #, restart_service: true
+brew "mongo"
 
 # apps
 cask "atom"
