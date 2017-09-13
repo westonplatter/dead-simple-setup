@@ -27,6 +27,7 @@ brew "rcm"
 
 # addons
 brew "chromedriver"
+brew "phantomjs"
 brew "markdown"
 brew "selenium-server-standalone"
 cask "spectacle"
@@ -42,8 +43,11 @@ brew "mongo"
 cask "atom"
 cask "brave"
 cask "google-chrome"
-cask "macvim"
 cask "slack"
+
+# apps - vim
+cask "macvim"
+brew "ctags"
 
 # language and build tools - jvm
 brew "ant"
