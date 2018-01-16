@@ -1,4 +1,4 @@
-  # coinfigs
+# coinfigs
 cask_args appdir: "/Applications"
 tap "caskroom/cask"
 
@@ -88,6 +88,10 @@ brew "heroku"
 # server tools - kubernetes
 brew "kubectl"
 cask "minikube"
+
+## server tools - ci
+tap "wercker/wercker"
+brew "wercker-cli"
 
 # server tools - local host
 cask "vagrant"
