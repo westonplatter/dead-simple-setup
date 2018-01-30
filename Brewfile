@@ -50,18 +50,18 @@ cask "macvim"
 brew "ctags"
 
 # language and build tools - jvm
-brew "ant"
-cask "eclipse-java"
-brew "gradle"
-brew "grails"
-cask "intellij-idea"
-brew "maven"
-brew "sbt"
-brew "scala"
+# brew "ant"
+# cask "eclipse-java"
+# brew "gradle"
+# brew "grails"
+# cask "intellij-idea"
+# brew "maven"
+# brew "sbt"
+# brew "scala"
 
 # language and build tools - jvm -- tap new cask
-tap "pivotal/tap"
-brew "springboot"
+# tap "pivotal/tap"
+# brew "springboot"
 
 # language and build tools - node
 brew "node"
@@ -74,6 +74,7 @@ brew "python"
 # language and build tools - ruby
 brew "rbenv"
 brew "ruby-build"
+brew "rbenv-gemset"
 
 # language - php
 tap "homebrew/dupes"
