@@ -6,9 +6,9 @@ tap "caskroom/cask"
 brew "ack"
 brew "autoconf"
 brew "automake"
-brew "boot2docker"
+# brew "boot2docker"
 brew "git"
-brew "imagemagick"
+# brew "imagemagick"
 brew "libjpeg"
 brew "openssl"
 brew "tmux"
@@ -22,16 +22,16 @@ tap "caskroom/cask"
 cask "java"
 
 # dot file management
-tap "thoughtbot/formulae"
-brew "rcm"
+# tap "thoughtbot/formulae"
+# brew "rcm"
 
 # addons
-brew "chromedriver"
-brew "phantomjs"
-brew "markdown"
-brew "selenium-server-standalone"
-cask "spectacle"
-brew "the_silver_searcher"
+# brew "chromedriver"
+# brew "phantomjs"
+# brew "markdown"
+# brew "selenium-server-standalone"
+# cask "spectacle"
+# brew "the_silver_searcher"
 
 # databases
 brew "mysql"      #, restart_service: true
@@ -40,14 +40,14 @@ brew "redis"      #, restart_service: true
 brew "mongo"
 
 # apps
-cask "atom"
-cask "brave"
-cask "google-chrome"
-cask "slack"
+# cask "atom"
+# cask "brave"
+# cask "google-chrome"
+# cask "slack"
 
 # apps - vim
-cask "macvim"
-brew "ctags"
+# cask "macvim"
+# brew "ctags"
 
 # language and build tools - jvm
 # brew "ant"
@@ -57,7 +57,7 @@ brew "ctags"
 # cask "intellij-idea"
 # brew "maven"
 # brew "sbt"
-# brew "scala"
+brew "scala"
 
 # language and build tools - jvm -- tap new cask
 # tap "pivotal/tap"
@@ -72,28 +72,28 @@ brew "pyenv"
 brew "python"
 
 # language and build tools - ruby
-brew "rbenv"
-brew "ruby-build"
-brew "rbenv-gemset"
+# brew "rbenv"
+# brew "ruby-build"
+# brew "rbenv-gemset"
 
 # language - php
-tap "homebrew/dupes"
-tap "homebrew/versions"
-tap "homebrew/homebrew-php"
-brew "php70"
+# tap "homebrew/dupes"
+# tap "homebrew/versions"
+# tap "homebrew/homebrew-php"
+# brew "php70"
 
 # server tools - config tools
 brew "ansible"
-brew "heroku"
+# brew "heroku"
 
 # server tools - kubernetes
-brew "kubectl"
-cask "minikube"
+# brew "kubectl"
+# cask "minikube"
 
 ## server tools - ci
-tap "wercker/wercker"
-brew "wercker-cli"
+# tap "wercker/wercker"
+# brew "wercker-cli"
 
 # server tools - local host
-cask "vagrant"
-cask "virtualbox"
+# cask "vagrant"
+# cask "virtualbox"
