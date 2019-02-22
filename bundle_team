@@ -1,0 +1,6 @@
+brew "git"
+brew "openssl"
+
+brew "pyenv"
+
+brew "yarn"

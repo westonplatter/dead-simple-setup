@@ -41,6 +41,7 @@ echo "... Running brew bundle"
 brew bundle
 
 # configs - python
+
 export PYENV_ROOT=/usr/local/opt/pyenv
 eval "$(pyenv init -)"
 

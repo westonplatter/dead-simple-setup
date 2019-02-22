@@ -1,0 +1,16 @@
+# see this example
+#
+# https://github.com/Homebrew/homebrew-bundle
+#
+
+brew "tmux"
+brew "vim"
+brew "zsh"
+
+# get cask room setup
+cask_args appdir: "/Applications"
+tap "caskroom/cask"
+
+cask "atom"
+cask "slack"
+cask "atom"
