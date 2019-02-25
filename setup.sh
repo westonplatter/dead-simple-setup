@@ -31,7 +31,7 @@ else
   sudo chown -R "$LOGNAME:admin" "$HOMEBREW_PREFIX"
 fi
 
-fancy_echo "Install Running ... executing agaist bundle_$1"
+fancy_echo "Setup ... executing agaist bundle_$1"
 
 if ! command -v brew >/dev/null; then
   fancy_echo "Installing Homebrew ..."
@@ -44,13 +44,21 @@ if brew list | grep -Fq brew-cask; then
   brew uninstall --force brew-cask
 fi
 
-fancy_echo "Updating Homebrew formulae ..."
+fancy_echo "Setup ... updating Homebrew formulae"
 
 brew update --force # https://github.com/Homebrew/brew/issues/1151
 brew bundle --file="bundle_$1"
 
+if [ -f "./post_bundle_$1.sh" ]; then
+  fancy_echo "Setup ... running post bundle shell file"
+  # shellcheck disable=SC1090
+  . "./post_bundle_$1.sh"
+fi
+
 if [ -f "$HOME/.laptop.local" ]; then
-  fancy_echo "Running your customizations from ~/.laptop.local ..."
+  fancy_echo "Setup ... Rrnning your customizations from ~/.laptop.local"
   # shellcheck disable=SC1090
   . "$HOME/.laptop.local"
 fi
+
+fancy_echo "Setup ... done :)"
