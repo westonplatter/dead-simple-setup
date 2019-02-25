@@ -1,6 +1,13 @@
+# homebrew utilities
+tap "caskroom/cask"
+
+# core
 brew "git"
 brew "openssl"
 
+# python
 brew "pyenv"
 
+# javascript
+brew "node"
 brew "yarn"

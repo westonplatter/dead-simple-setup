@@ -13,4 +13,3 @@ tap "caskroom/cask"
 
 cask "atom"
 cask "slack"
-cask "atom"
