@@ -15,9 +15,6 @@ git clone git@github.com:westonplatter/dead-simple-setup.git
 cd dead-simple-setup
 chmod +x ./setup.sh
 
-./setup.sh team
-./setup.sh personal
-
 #
 # examples
 #

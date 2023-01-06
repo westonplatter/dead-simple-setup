@@ -46,7 +46,7 @@ fi
 fancy_echo "Setup ... updating Homebrew formulae"
 
 brew update --force # https://github.com/Homebrew/brew/issues/1151
-brew bundle --file="bundle_$1"
+brew bundle --file=$1
 
 if [ -f "./post_bundle_$1.sh" ]; then
   fancy_echo "Setup ... running post bundle shell file"
