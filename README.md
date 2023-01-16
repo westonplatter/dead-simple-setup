@@ -1,10 +1,12 @@
 # Dead Simple Setup
 The "dead simple" OSX package install script.
 
-## Why?
+## Why does this repo exist?
 I got tired of doing one off brew installs for java, ruby, python, npm, etc. I
-like [thoughtbot's laptop](https://github.com/thoughtbot/laptop) but I think
-it's too opinionated.
+love the technical thoroughness of [thoughtbot's laptop](https://github.com/thoughtbot/laptop)
+system, and wanted a less robust / simplified version. At the core, I wanted
+a way to define collections of packages to install quickly as I worked 
+across multiple Mac machines.
 
 ## Install
 
@@ -16,14 +18,11 @@ cd dead-simple-setup
 chmod +x ./setup.sh
 
 #
-# examples
+# live examples in use
 #
 ./setup.sh personal_apps
-./setup.sh personal_db
-./setup.sh personal_ruby
-./setup.sh personal_java
-./setup.sh personal_scala
-
+./setup.sh personal_data
+./setup.sh personal_code
 ```
 
 ## Credits
@@ -34,4 +33,4 @@ Justin Johnson's [feedback](https://twitter.com/balduncle/status/874583640285556
 thoughtbot's [laptop repo](https://github.com/thoughtbot/laptop)
 
 ## License
-MIT
+MIT. See LICENSE file.

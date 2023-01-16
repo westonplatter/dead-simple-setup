@@ -1,0 +1,27 @@
+# homebrew utilities
+tap "homebrew/cask"
+
+# core
+brew "git"
+brew "openssl"
+
+# python
+brew "pyenv"
+
+# javascript
+brew "nvm"
+brew "yarn"
+
+brew "universal-ctags"
+
+brew "gpg"
+
+#cask "leap"
+# brew install --cask leapp
+#
+brew "awscli"
+#brew install --cask session-manager-plugin
+brew "azure-cli"
+
+#brew install --cask visual-studio-code
+cask "visual-studio-code"

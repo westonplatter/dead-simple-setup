@@ -1,0 +1,7 @@
+cask_args appdir: "/Applications"
+tap "homebrew/cask"
+
+# homebrew utilities
+cask "google-chrome"
+
+cask "slack"
