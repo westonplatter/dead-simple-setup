@@ -2,11 +2,15 @@
 The "dead simple" OSX package install script.
 
 ## Why does this repo exist?
-I got tired of doing one off brew installs for java, ruby, python, npm, etc. I
-love the technical thoroughness of [thoughtbot's laptop](https://github.com/thoughtbot/laptop)
-system, and wanted a less robust / simplified version. At the core, I wanted
-a way to define collections of packages to install quickly as I worked 
-across multiple Mac machines.
+I got tired of doing one off `brew install`s for java, ruby, python, npm, etc
+on both my work machine and my personal machine. I wanted to way to sync the
+installed OS programs at work and at home.
+
+I admire the technical thoroughness of [thoughtbot's laptop](https://github.com/thoughtbot/laptop)
+system, and wanted a less robust / simplified version.
+
+Functionally, I wanted a way to define collections of packages to install 
+quickly as I worked across multiple Mac machines.
 
 ## Install
 

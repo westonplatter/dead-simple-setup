@@ -1,0 +1,6 @@
+brew "universal-ctags"
+
+# editors
+brew "neovim"
+cask "visual-studio-code"
+

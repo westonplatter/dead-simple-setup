@@ -3,6 +3,7 @@ tap "homebrew/cask"
 
 # core
 brew "git"
+brew "gpg"
 brew "openssl"
 
 # python
@@ -14,14 +15,12 @@ brew "yarn"
 
 brew "universal-ctags"
 
-brew "gpg"
-
-#cask "leap"
-# brew install --cask leapp
-#
+# leapp app + dependent packages
+cask "leapp"
+#brew "leapp-cli"
 brew "awscli"
-#brew install --cask session-manager-plugin
+cask "session-manager-plugin"
 brew "azure-cli"
 
-#brew install --cask visual-studio-code
+# editors
 cask "visual-studio-code"
